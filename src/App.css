@@ -1,0 +1,144 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#0F172A;
+  color:white;
+}
+
+a{
+  text-decoration:none;
+}
+
+/* Common Container */
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* Headings */
+
+.title{
+  font-size:48px;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.subtitle{
+  text-align:center;
+  color:#CBD5E1;
+  font-size:20px;
+  margin-bottom:40px;
+}
+
+/* Buttons */
+
+.btn{
+  background:#38BDF8;
+  color:white;
+  border:none;
+  padding:15px 30px;
+  font-size:18px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.btn:hover{
+  background:#0EA5E9;
+  transform:translateY(-2px);
+}
+
+/* Cards */
+
+.card{
+  background:#1E293B;
+  border-radius:20px;
+  padding:25px;
+  margin:20px 0;
+  box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+/* Level Grid */
+
+.level-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.level-card{
+  background:#1E293B;
+  border-radius:18px;
+  padding:25px;
+  text-align:center;
+  transition:.3s;
+}
+
+.level-card:hover{
+  transform:translateY(-5px);
+}
+
+.locked{
+  opacity:.5;
+}
+
+/* Textarea */
+
+textarea{
+  width:100%;
+  max-width:700px;
+  height:220px;
+  border:none;
+  border-radius:15px;
+  padding:20px;
+  font-size:20px;
+  resize:none;
+  outline:none;
+}
+
+/* XP */
+
+.xp{
+  margin-top:25px;
+  font-size:28px;
+  color:#FACC15;
+}
+
+.success{
+  color:#22C55E;
+  margin-top:20px;
+  font-size:24px;
+}
+
+.error{
+  color:#EF4444;
+  margin-top:20px;
+  font-size:24px;
+}
+
+/* Hero */
+
+.hero{
+  text-align:center;
+  padding-top:80px;
+}
+
+.hero h1{
+  font-size:60px;
+}
+
+.hero p{
+  color:#CBD5E1;
+  font-size:22px;
+  margin:20px 0 40px;
+}
